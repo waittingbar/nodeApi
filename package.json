@@ -1,11 +1,18 @@
 {
-  "name": "FE+",
-  "version": "1.0.0",
-  "dependencies": {
-    "co": "^4.6.0",
-    "connect-mongo": "^2.0.0",
-    "express": "^4.16.2",
-    "wafer-node-session": "^1.0.10",
-    "ws": "^3.3.3"
-  }
+    "name": "FE-nodeJsApi",
+    "version": "1.0.0",
+    "script": {
+        "pm2": "pm2 start app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/waittingbar/nodeApi.git"
+    },
+    "dependencies": {
+        "co": "^4.6.0",
+        "connect-mongo": "^2.0.0",
+        "express": "^4.16.2",
+        "wafer-node-session": "^1.0.10",
+        "ws": "^3.3.3"
+    }
 }
