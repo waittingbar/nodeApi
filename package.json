@@ -2,6 +2,7 @@
     "name": "FE-nodeJsApi",
     "version": "1.0.0",
     "script": {
+        "restart": "pm2 restart app",
         "pm2": "pm2 start app.js"
     },
     "repository": {
