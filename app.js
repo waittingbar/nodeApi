@@ -35,7 +35,7 @@ app.use('/me', (request, response, next) => {
 
 // 实现一个中间件，对于未处理的请求，都输出 "Response from express"
 app.use((request, response, next) => {
-    response.write('node  well fly hahahah');
+    response.write('node  well fly 你好哈哈哈');
     response.end();
 });
 
